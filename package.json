@@ -1,5 +1,6 @@
 {
   "name": "iam-rds-roles",
+  "description": "AWS CDK construct(s) for IAM roles related to Amazon RDS.",
   "repository": {
     "type": "git",
     "url": "https://github.com/gammarers-aws-cdk-resources/iam-rds-roles.git"
