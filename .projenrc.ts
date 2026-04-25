@@ -11,7 +11,7 @@ const project = new awscdk.AwsCdkConstructLibrary({
   packageManager: javascript.NodePackageManager.YARN_CLASSIC,
   projenrcTs: true,
   repositoryUrl: 'https://github.com/gammarers-aws-cdk-resources/iam-rds-roles.git',
-  releaseToNpm: false,
+  releaseToNpm: true,
   // npmTrustedPublishing: true,
   npmAccess: javascript.NpmAccess.PUBLIC,
   mergify: true,
