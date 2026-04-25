@@ -7,6 +7,7 @@ const project = new awscdk.AwsCdkConstructLibrary({
   typescriptVersion: '5.9.x',
   jsiiVersion: '5.9.x',
   name: 'iam-rds-roles',
+  description: 'AWS CDK construct(s) for IAM roles related to Amazon RDS.',
   packageManager: javascript.NodePackageManager.YARN_CLASSIC,
   projenrcTs: true,
   repositoryUrl: 'https://github.com/gammarers-aws-cdk-resources/iam-rds-roles.git',
